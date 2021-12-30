@@ -3,4 +3,4 @@ Statistical model using Zillow APIs to detect price drops in the real estate Tam
 
 # Instructions for Brooke
 
-Brooke, make an edit to this file so that you can get used to the process of how changes are managed in Github. Add another line below. #todo 
+Brooke, make an edit to this file so that you can get used to the process of how changes are managed in Github. Add another line below. 
