@@ -15,3 +15,5 @@ Download GIT: https://git-scm.com/downloads
 
 #TODO: Type here when you are done.
 
+For later: We are going to use visual studio code (vs code) as the IDE to write code. https://code.visualstudio.com/docs/?dv=osx - Install when you have time.
+
