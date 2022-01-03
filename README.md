@@ -1,8 +1,14 @@
 # TPA_RE_Analysis
 Statistical model using Zillow APIs to detect price drops in the real estate Tampa market.
 
-# Instructions for Brooke
+# Instructions for Brooke - Jan 3rd
 
-Brooke, make an edit to this file so that you can get used to the process of how changes are managed in Github. Add another line below. 
+OK Brooke. Github is a platofrm or a tool that developers use to manage code. Code is stored in a "folder" or "Directory" called Repository or Repo. Developers check out a copy of the code to make changes (add or update code). When done, they check in the code back into their main branch. A branch is a copy of the code and each copy can be named like "main", "Develop", "Brooke_copy", etc. The technology used by Github and other tools like this is called "Git". Try installong Git in your laptop and watch one of these videos to get a high level tutorial.
 
-Brooke Murphy reporting for duty.
+https://youtu.be/mJ-qvsxPHpY
+https://youtu.be/USjZcfj8yxE
+
+Download GIT: https://git-scm.com/downloads
+
+#TODO: Type here when you are done.
+
