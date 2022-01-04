@@ -13,7 +13,7 @@ https://youtu.be/USjZcfj8yxE
 
 Download GIT: https://git-scm.com/downloads
 
-#TODO: Type here when you are done.
+#TODO: Was I supposed to use Git to type here? I watched both videos and downloaded Git and VS code. Definitely still a bit confused about Git but thinking it'll be more clear soon once I start using it? Also, when I installed Git, it gave me three apps: Git Bash, Git GUI, and Git Command Prompt. The first video said I should be using Git Bash but we are going to be using VS Code, right? And then pulling that into Git to add to save files and add to GitHub? 
 
 For later: We are going to use visual studio code (vs code) as the IDE to write code. https://code.visualstudio.com/docs/?dv=osx - Install when you have time.
 
