@@ -1,19 +1,13 @@
 # TPA_RE_Analysis
 Statistical model using Zillow APIs to detect price drops in the real estate Tampa market.
 
-# Instructions for Brooke - Jan 3rd
+1 - Git is not used to write code. It is not an IDE. VS Code is an IDE, but we still need Git to manage check ins, check outs, merge with branches, ... changes in the code. And for you and I to collaborate. 
 
-OK Brooke. Github is a platofrm or a tool that developers use to manage code. Code is stored in a "folder" or "Directory" called Repository or Repo. Developers check out a copy of the code to make changes (add or update code). When done, they check in the code back into their main branch. A branch is a copy of the code and each copy can be named like "main", "Develop", "Brooke_copy", etc. This repo is called "TPA_RE_Analysis". The technology used by Github and other tools like this is called "Git". Try install Git in your laptop and watch one of these videos to get a high level tutorial.
+2 - Be careful with some of the instructions you get in these videos. We are dealing with files manipulation within your machine, so that would be specific to your operating system. Therefore, if you see a guy using a MacBook, most likely the instruction would be different on creating a file, deleting a file, creating a directory, within your own laptop. I just bought a Macbook and I am now learning that. So, use whatever it is recommended for a Windows machine. Git from the command prompt is probably better than Git Bash.
 
-https://youtu.be/mJ-qvsxPHpY
+#TODO: Create a folder in your laptop and, from there, open the command prompt (after you have installed Git), and google how to navigate in Windows and manage files/folders via command prompt. Here is an example: https://www.wikihow.com/Create-and-Delete-Files-and-Directories-from-Windows-Command-Prompt. Then, when you feel comfortable with it, go ahead and take the tutorial on how to create a git repo from that folder you created. Create a file (whatever you want), make a change to the file, and then check in. This could end up being a bit confusing. Give it a try. next, we can try to make changes to this file using git. That is when things get a bit clearer and cooler.. you'll start looking more like a developer .. 
 
-or 
 
-https://youtu.be/USjZcfj8yxE
-
-Download GIT: https://git-scm.com/downloads
-
-#TODO: Was I supposed to use Git to type here? I watched both videos and downloaded Git and VS code. Definitely still a bit confused about Git but thinking it'll be more clear soon once I start using it? Also, when I installed Git, it gave me three apps: Git Bash, Git GUI, and Git Command Prompt. The first video said I should be using Git Bash but we are going to be using VS Code, right? And then pulling that into Git to add to save files and add to GitHub? 
 
 For later: We are going to use visual studio code (vs code) as the IDE to write code. https://code.visualstudio.com/docs/?dv=osx - Install when you have time.
 
