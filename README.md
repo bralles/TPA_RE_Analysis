@@ -17,7 +17,11 @@ You should now have a copy that is placed in version control. Now, lets go ahead
 5 - Remove all these instructions and type: DONE! - Brooke ;)
 6 - save file
 7 - Go to Terminal > New Terminal. Click + to create a new bash terminal or powershell.
-8 - Then type: 
+8 - Then type: git add README.md - This is to add this file to version control.
+9 - Type git commit -a -m "Brooke update 1/14/22" - This command "commits" or saves the change you made with a message: Brooke udpate 1/14/22".
+10 - type git push origin main - This tells git to push changes from your local copy of the repo called origin to the github repo main.
+
+You are done. Go to the github web site and ensure your changes are there. If not, google this process in case you missed something.
 
 
 
