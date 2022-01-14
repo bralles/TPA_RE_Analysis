@@ -16,7 +16,8 @@ You should now have a copy that is placed in version control. Now, lets go ahead
 4 - Open this file
 5 - Remove all these instructions and type: DONE! - Brooke ;)
 6 - save file
-7 - Go to Terminal > New Terminal
+7 - Go to Terminal > New Terminal. Click + to create a new bash terminal or powershell.
+8 - Then type: 
 
 
 
