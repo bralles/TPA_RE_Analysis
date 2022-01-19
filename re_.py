@@ -1,4 +1,4 @@
 # Our first python file. 
 
-a = input("Please give me your name: ")
+a = input("Please type your name: ")
 print(a)
