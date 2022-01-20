@@ -1,20 +1,27 @@
 '''
-OK. Getting serious now. 
-
-The idea is to build a program that receives zip codes as inputs and gives you average price per square feet for that area.
-We will then create a database to store info so that we can build historical data that we can use to lay on a chart.
-
-Saving Zillow's branding requirements here: https://www.zillow.com/howto/api/BrandingRequirements.htm
-
-ZWSID: X1-ZWz1in06a21dl7_4wzn5
-
+Lets capture COVID cases for plotting. Here is a site that shows you how to use the API
+https://rapidapi.com/blog/covid-19-data-api-with-python-php-ruby-javascript-examples/
 
 '''
 
-# Instantiating the ZillowWrapper from PyZillow
 
-from pyzillow.pyzillow import ZillowWrapper
+import requests
 
-# We need a Zillow Web Services ID (ZWSID) by going to Zillow and applying for one. I am going to apply for one since 
-# I already have an account and past the API key here. As a developer, you are not supposed to paste it here as this 
-# can obtained by hackers. But its ok, because we are not dealing with sensitive data and we are just playing.
+# Endpoint that we are going to be hitting:
+
+url = "https://covid-19-data.p.rapidapi.com/totals"
+
+# credentials:
+
+headers = {
+    'x-rapidapi-host': "covid-19-data.p.rapidapi.com",
+    'x-rapidapi-key': "659f0d67e7msh23c12f2b1bf79d3p101746jsn01f238cd8a82"
+    }
+
+# Request for data
+
+response = requests.request("GET", url, headers=headers)
+
+#print:
+
+print(response.text)
