@@ -4,6 +4,11 @@ OK. Getting serious now.
 The idea is to build a program that receives zip codes as inputs and gives you average price per square feet for that area.
 We will then create a database to store info so that we can build historical data that we can use to lay on a chart.
 
+Saving Zillow's branding requirements here: https://www.zillow.com/howto/api/BrandingRequirements.htm
+
+ZWSID: X1-ZWz1in06a21dl7_4wzn5
+
+
 '''
 
 # Instantiating the ZillowWrapper from PyZillow
