@@ -1,16 +1,15 @@
-# Our first python file. 
+'''
+OK. Getting serious now. 
 
-import requests
+The idea is to build a program that receives zip codes as inputs and gives you average price per square feet for that area.
+We will then create a database to store info so that we can build historical data that we can use to lay on a chart.
 
-url = "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch"
+'''
 
-querystring = {"location":"33625","home_type":"Houses"}
+# Instantiating the ZillowWrapper from PyZillow
 
-headers = {
-    'x-rapidapi-host': "zillow-com1.p.rapidapi.com",
-    'x-rapidapi-key': "659f0d67e7msh23c12f2b1bf79d3p101746jsn01f238cd8a82"
-    }
+from pyzillow.pyzillow import ZillowWrapper
 
-response = requests.request("GET", url, headers=headers, params=querystring)
-
-print(response.text)
+# We need a Zillow Web Services ID (ZWSID) by going to Zillow and applying for one. I am going to apply for one since 
+# I already have an account and past the API key here. As a developer, you are not supposed to paste it here as this 
+# can obtained by hackers. But its ok, because we are not dealing with sensitive data and we are just playing.
