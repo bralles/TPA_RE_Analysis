@@ -21,7 +21,21 @@ headers = {
 # Request for data
 
 response = requests.request("GET", url, headers=headers)
+json_data = response.text
 
-#print:
+#clean it
+remove_symbols = ["[", "]", "{", "}"]
+for i in remove_symbols :
+    json_data = json_data.replace(i, "")
 
-print(response.text)
+#split string
+split_str = json_data.split(",")
+
+#data types as variables
+confirmed = split_str[0]
+recovered = split_str[1]
+critical  = split_str[2]
+deaths = split_str[3]
+
+#pretty print
+print("{}\n{}\n{}\n{}".format(confirmed, recovered, critical, deaths).replace('"', ""))
