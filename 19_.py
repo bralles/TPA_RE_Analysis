@@ -7,5 +7,6 @@ All functions created will end with _19 as naming convention.
 '''
 import mod_19
 
+# Will use our custom function to make a call and get covid-19 data.
 mod_19.get_covid_data_19()
 
