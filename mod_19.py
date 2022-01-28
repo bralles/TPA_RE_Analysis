@@ -5,6 +5,7 @@ one that we created for us.
 
 '''
 import requests
+from requests.exceptions import HTTPError
 
 def get_covid_data_19(country_name, date):
     '''
@@ -19,16 +20,29 @@ def get_covid_data_19(country_name, date):
     # Endpoint that we are going to be hitting:
     url = "https://covid-19-data.p.rapidapi.com/report/country/name"
 
-    querystring = {"name":c,"date":d}
+    querystring = {"name":c,"date":d, "format":"json"}
 
     headers = {
         'x-rapidapi-host': "covid-19-data.p.rapidapi.com",
         'x-rapidapi-key': "659f0d67e7msh23c12f2b1bf79d3p101746jsn01f238cd8a82"
         }
 
-    response = requests.request("GET", url, headers=headers, params=querystring)
-    r = response.json()
-    print(r[0])
+    try:
+        response = requests.request("GET", url, headers=headers, params=querystring)
+        response.raise_for_status()
+        r = response.json()
+    except HTTPError as http_err:
+        print(f'HTTP error occured: {http_err}')
+    except Exception as err:
+        print(f'Other erro occured: {err}')
+    
+
+    print("Printing the content of the response: ")
+    for key, value in r[0].items():
+        print(key, ":", value)
+    
+ 
+    
     
 
     '''
