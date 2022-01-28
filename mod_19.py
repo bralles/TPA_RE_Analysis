@@ -26,6 +26,7 @@ def get_covid_data_19(country_name, date):
         }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
+    print(response.text)
     
 
     '''
