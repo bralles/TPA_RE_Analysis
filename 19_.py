@@ -9,5 +9,5 @@ https://www.w3schools.com/python/default.asp
 import mod_19
 
 # Will use our custom function to make a call and get covid-19 data.
-mod_19.get_covid_data_19("Italy", "2022-01-24")
+mod_19.get_covid_data_19("Spain", "2022-01-24")
 
