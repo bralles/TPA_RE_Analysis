@@ -13,6 +13,7 @@ def get_covid_data_19(country_name, date):
     API info and config: https://rapidapi.com/Gramzivi/api/covid-19-data/
 
     '''
+    import json
     c = country_name
     d = date
     # Endpoint that we are going to be hitting:
@@ -26,7 +27,8 @@ def get_covid_data_19(country_name, date):
         }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
-    print(response.text)
+    r = response.json()
+    print(r[0])
     
 
     '''
