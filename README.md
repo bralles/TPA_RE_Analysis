@@ -7,7 +7,9 @@ If you were working on something and realized you dont want the work you did and
 execute these commands in this sequence:
 
 git fetch
+
 git reset --hard HEAD
+
 git merge '@{u}'
 
 
